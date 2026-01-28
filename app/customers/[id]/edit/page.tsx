@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { customerService } from "@/lib/services/customer-service";
-import { updateCustomerAction } from "../../actions";
+import { updateCustomerAction } from "../../../api/customers/actions";
 
 type Props = {
   params: Promise<{ id: string }>;

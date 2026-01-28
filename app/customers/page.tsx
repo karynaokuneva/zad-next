@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { customerService } from "@/lib/services/customer-service";
-import { createCustomerAction, deleteCustomerAction } from "./actions";
+import {
+  createCustomerAction,
+  deleteCustomerAction,
+} from "../api/customers/actions";
 
 export const dynamic = "force-dynamic";
 
